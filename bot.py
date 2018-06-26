@@ -17,7 +17,7 @@ from api import get_weather_by_day
 
 
 class ActionReportWeather(FormAction):
-    RANDOMIZE = False
+    RANDOMIZE = True
 
     @staticmethod
     def required_fields():
@@ -33,6 +33,9 @@ class ActionReportWeather(FormAction):
     def submit(self, dispatcher, tracker, domain):
         # type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
+        stories = tracker.export_stories().encode('utf-8').decode('unicode_escape')
+        print(stories)
+
         address = tracker.get_slot('address')
         date_time = tracker.get_slot('date-time')
 
@@ -42,7 +45,7 @@ class ActionReportWeather(FormAction):
             return [SlotSet("matches", "暂不支持查询 {} 的天气".format([address, date_time_number]))]
         else:
             weather_data = get_text_weather_date(address, date_time, date_time_number)
-            return [SlotSet("matches", "{} <!- debug: {} -->".format(weather_data, (address, date_time, date_time_number)))]
+            return [SlotSet("matches", "{}".format(weather_data))]
 
 
 def get_text_weather_date(address, date_time, date_time_number):
@@ -51,7 +54,9 @@ def get_text_weather_date(address, date_time, date_time_number):
     except (ConnectionError, HTTPError, TooManyRedirects, Timeout) as e:
         text_message = "{}".format(e)
     else:
-        text_message_tpl = "{} {} ({}) 的天气情况为：白天：{}；夜晚：{}；气温：{}-{} °C"
+        text_message_tpl = """
+            {} {} ({}) 的天气情况为：白天：{}；夜晚：{}；气温：{}-{} °C
+        """
         text_message = text_message_tpl.format(
             result['location']['name'],
             date_time,
