@@ -49,7 +49,7 @@
   - utter_report_weather
 
 ## None + date-time + address path
-* weather{}
+* weather
   - utter_ask_date-time
 * weather_date-time{"date-time": "明天"}
   - utter_ask_address
@@ -58,14 +58,36 @@
   - action_report_weather
   - utter_report_weather
 
+## None + address + date-time path
+* weather
+  - utter_ask_date-time
+* weather_address{"address": "上海"}
+  - utter_ask_date-time
+* weather_date-time{"date-time": "明天"}
+  - utter_working_on_it
+  - action_report_weather
+  - utter_report_weather
+
 ## None + date-time + address path with greet
 * greet
   - utter_greet
-* weather{}
+* weather
   - utter_ask_date-time
 * weather_date-time{"date-time": "明天"}
   - utter_ask_address
 * weather_address{"address": "上海"}
+  - utter_working_on_it
+  - action_report_weather
+  - utter_report_weather
+
+## None + address + date-time path with greet
+* greet
+  - utter_greet
+* weather
+  - utter_ask_date-time
+* weather_address{"address": "上海"}
+  - utter_ask_date-time
+* weather_date-time{"date-time": "明天"}
   - utter_working_on_it
   - action_report_weather
   - utter_report_weather
