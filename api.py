@@ -20,7 +20,7 @@ def fetch_weather(location, start=0, days=15):
         'unit': UNIT,
         'start': start,
         'days': days
-    }, timeout=1)
+    }, timeout=2)
     return result.json()
 
 
