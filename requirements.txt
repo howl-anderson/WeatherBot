@@ -1,7 +1,7 @@
 git+https://github.com/mit-nlp/MITIE.git
 git+https://github.com/RasaHQ/rasa_core.git
 git+https://github.com/RasaHQ/rasa_nlu.git
-git+git+https://github.com/mrbot-ai/rasa-addons.git
+git+https://github.com/mrbot-ai/rasa-addons.git
 
 absl-py==0.2.1
 APScheduler==3.5.1
