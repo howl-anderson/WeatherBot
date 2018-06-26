@@ -1,0 +1,2 @@
+rasa_nlu
+rasa_core
