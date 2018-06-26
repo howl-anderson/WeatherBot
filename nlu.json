@@ -24,6 +24,24 @@
         "entities": [
           {
             "start": 0,
+            "end": 2,
+            "value": "上海",
+            "entity": "address"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "明天",
+            "entity": "date-time"
+          }
+        ],
+        "text": "上海明天的天气"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
             "end": 5,
             "value": "下个星期五",
             "entity": "date-time"
@@ -215,7 +233,7 @@
             "entity": "address"
           }
         ],
-        "text": "在辽宁吗"
+        "text": "在辽宁呢"
       },
       {
         "intent": "weather",
@@ -227,7 +245,7 @@
             "entity": "address"
           }
         ],
-        "text": "在北京"
+        "text": "在北京呢"
       },
       {
         "intent": "weather",
@@ -239,7 +257,7 @@
             "entity": "address"
           }
         ],
-        "text": "关于厦门"
+        "text": "如何厦门"
       },
       {
         "intent": "weather",
@@ -1360,6 +1378,30 @@
         "entities": [
         ],
         "text": "结束"
+      },
+      {
+        "intent": "other",
+        "entities": [
+        ],
+        "text": "什么"
+      },
+      {
+        "intent": "other",
+        "entities": [
+        ],
+        "text": "你是谁"
+      },
+      {
+        "intent": "other",
+        "entities": [
+        ],
+        "text": "我的鞋子在哪里"
+      },
+      {
+        "intent": "other",
+        "entities": [
+        ],
+        "text": "未发生大放送"
       }
     ],
     "regex_features": [],
