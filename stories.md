@@ -70,30 +70,6 @@
   - action_report_weather
   - utter_report_weather
 
-## simple path then alter date-time with greet
-* greet
-  - utter_greet
-* weather{"address": "上海", "date-time": "明天"}
-  - utter_working_on_it
-  - action_report_weather
-  - utter_report_weather
-* weather{"date-time": "后天"}
-  - utter_working_on_it
-  - action_report_weather
-  - utter_report_weather
-
-## simple path then alter address with greet
-* greet
-  - utter_greet
-* weather{"address": "上海", "date-time": "明天"}
-  - utter_working_on_it
-  - action_report_weather
-  - utter_report_weather
-* weather{"address": "北京"}
-  - utter_working_on_it
-  - action_report_weather
-  - utter_report_weather
-
 ## say goodbye
 * goodbye
   - utter_goodbye
