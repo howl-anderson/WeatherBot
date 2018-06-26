@@ -2,7 +2,7 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 2,
@@ -20,7 +20,7 @@
         "text": "我要上海明天的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -38,7 +38,7 @@
         "text": "上海明天的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -56,7 +56,7 @@
         "text": "上海昨天的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -74,7 +74,7 @@
         "text": "上海前天的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -92,7 +92,7 @@
         "text": "下个星期五在南京"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -110,7 +110,7 @@
         "text": "明天在北京"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -128,7 +128,7 @@
         "text": "沈阳五天后"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -146,7 +146,7 @@
         "text": "下星期一在北京呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -164,7 +164,7 @@
         "text": "今天在天津"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -182,7 +182,7 @@
         "text": "青岛明天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 2,
@@ -200,7 +200,7 @@
         "text": "还要下星期日在苏州"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 2,
@@ -218,7 +218,7 @@
         "text": "关于两天后在上海"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -236,7 +236,7 @@
         "text": "三天后在武汉呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 4,
@@ -248,7 +248,7 @@
         "text": "告诉我在广州怎么样"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 4,
@@ -260,7 +260,7 @@
         "text": "告诉我在广州"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 1,
@@ -272,7 +272,7 @@
         "text": "在辽宁呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 1,
@@ -284,7 +284,7 @@
         "text": "在北京呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 2,
@@ -296,7 +296,7 @@
         "text": "如何厦门"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 2,
@@ -308,7 +308,7 @@
         "text": "还在武汉呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 1,
@@ -320,7 +320,7 @@
         "text": "在香港呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 1,
@@ -332,7 +332,7 @@
         "text": "在杭州"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 2,
@@ -344,7 +344,7 @@
         "text": "还在上海"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 2,
@@ -356,7 +356,7 @@
         "text": "还在宁波"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 3,
@@ -368,7 +368,7 @@
         "text": "怎么能下个星期日"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 3,
@@ -380,7 +380,7 @@
         "text": "还需要昨天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 3,
@@ -392,7 +392,7 @@
         "text": "我还要昨天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -404,7 +404,7 @@
         "text": "明天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 4,
@@ -416,7 +416,7 @@
         "text": "我还很想一月一号"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -425,10 +425,10 @@
             "entity": "date-time"
           }
         ],
-        "text": "关于明天"
+        "text": "明天如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -440,7 +440,7 @@
         "text": "星期六呢"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -452,7 +452,7 @@
         "text": "现在明天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -464,7 +464,7 @@
         "text": "关于两天后"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 3,
@@ -476,7 +476,7 @@
         "text": "会不会前天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -488,7 +488,7 @@
         "text": "还要三天前"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 3,
@@ -500,7 +500,7 @@
         "text": "能不能下星期五"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -512,7 +512,7 @@
         "text": "还要明天"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 2,
@@ -524,7 +524,7 @@
         "text": "稍后晚上会下雨吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -536,7 +536,7 @@
         "text": "北京里面会不会阴雨"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -554,7 +554,7 @@
         "text": "三天后杭州多云吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -572,7 +572,7 @@
         "text": "十月三号沈阳会下雨吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -590,7 +590,7 @@
         "text": "用着摄氏度显示天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -602,7 +602,7 @@
         "text": "昨天几度"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -614,7 +614,7 @@
         "text": "9/4天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -626,7 +626,7 @@
         "text": "明天天气多少摄氏度"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -638,7 +638,7 @@
         "text": "上海什么天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 9,
@@ -650,7 +650,7 @@
         "text": "不好意思可以帮我查香港的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -668,7 +668,7 @@
         "text": "明天台北天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -686,7 +686,7 @@
         "text": "今天台北的天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -704,7 +704,7 @@
         "text": "三天后台北的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -722,7 +722,7 @@
         "text": "北京今天的天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -740,7 +740,7 @@
         "text": "杭州今天的天气怎么样"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -762,7 +762,7 @@
         "text": "天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -780,7 +780,7 @@
         "text": "今天台北天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -792,7 +792,7 @@
         "text": "今天天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -804,7 +804,7 @@
         "text": "厦门啥天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -822,7 +822,7 @@
         "text": "今天上海的天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -840,7 +840,7 @@
         "text": "两天前上海的天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -852,7 +852,7 @@
         "text": "昨天什么天气"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -870,7 +870,7 @@
         "text": "今天台北市的天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -882,7 +882,7 @@
         "text": "今天台中天气如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -900,7 +900,7 @@
         "text": "明天北京我需要不需要雨衣"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -918,7 +918,7 @@
         "text": "下星期日北京外边需要毛线帽吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -954,7 +954,7 @@
         "text": "去外边要带夹克吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -966,7 +966,7 @@
         "text": "今天去外边要穿薄毛衣吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -984,7 +984,7 @@
         "text": "今天北京去外边要带羊毛袜吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -996,7 +996,7 @@
         "text": "明天去外边要带雨伞吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1014,7 +1014,7 @@
         "text": "三月五号北京去外边要穿外衣吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1026,7 +1026,7 @@
         "text": "两天后我需要不需要雨裤"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1050,7 +1050,7 @@
         "text": "外边需要雨伞吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1064,11 +1064,17 @@
       {
         "intent": "weather",
         "entities": [
+           {
+            "start": 3,
+            "end": 5,
+            "value": "现在",
+            "entity": "date-time"
+          }
         ],
         "text": "你知道现在外面冷不冷"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1080,7 +1086,7 @@
         "text": "明天的天气会很温和吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1092,7 +1098,7 @@
         "text": "今天天气很热耶"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1104,7 +1110,7 @@
         "text": "上海啥温度"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1122,7 +1128,7 @@
         "text": "天气是不是很凉快"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 5,
@@ -1152,7 +1158,7 @@
         "text": "天气很冷"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -1164,7 +1170,7 @@
         "text": "上海多热"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1182,7 +1188,7 @@
         "text": "上海三天后多少度"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1200,7 +1206,7 @@
         "text": "明天上海的温度如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1218,7 +1224,7 @@
         "text": "天气会不会很热"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1236,7 +1242,7 @@
         "text": "今天上海的气温如何"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1254,7 +1260,7 @@
         "text": "明天马来西亚最近的天气是不是很冷"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -1272,7 +1278,7 @@
         "text": "天气会很温和吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 3,
@@ -1296,7 +1302,7 @@
         "text": "为什么天气那么寒冷"
       },
       {
-        "intent": "weather",
+        "intent": "weather_date-time",
         "entities": [
           {
             "start": 0,
@@ -1308,7 +1314,7 @@
         "text": "明天的天气是不是很暖吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address_date-time",
         "entities": [
           {
             "start": 0,
@@ -1326,7 +1332,7 @@
         "text": "下星期日马来西亚的天气会很热吗"
       },
       {
-        "intent": "weather",
+        "intent": "weather_address",
         "entities": [
           {
             "start": 0,
@@ -1428,6 +1434,36 @@
         "value": "明天",
         "synonyms": [
           "明日"
+        ]
+      },
+      {
+        "value": "今天",
+        "synonyms": [
+          "早上"
+        ]
+      },
+      {
+        "value": "今天",
+        "synonyms": [
+          "中午"
+        ]
+      },
+      {
+        "value": "今天",
+        "synonyms": [
+          "晚上"
+        ]
+      },
+      {
+        "value": "今天",
+        "synonyms": [
+          "傍晚"
+        ]
+      },
+      {
+        "value": "今天",
+        "synonyms": [
+          "今日"
         ]
       }
     ]

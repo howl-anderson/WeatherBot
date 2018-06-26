@@ -1,7 +1,9 @@
 intents:
   - greet
   - goodbye
-  - weather
+  - weather_address_date-time
+  - weather_address
+  - weather_date-time
 
 slots:
   address:
@@ -42,3 +44,6 @@ templates:
 
   utter_report_weather:
   - text: "{matches}"
+
+  utter_other:
+  - text: "系统不明白您说的话"
