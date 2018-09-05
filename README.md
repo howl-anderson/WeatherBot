@@ -23,7 +23,7 @@
 python 3
 ### python 依赖
 ```console
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 下载数据和模型
