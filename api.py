@@ -1,10 +1,18 @@
 #!/usr/bin/env python
+"""
+Weather data is provided by https://www.seniverse.com/,
+below code are modified from https://github.com/seniverse/seniverse-api-demos
+
+NOTE: user need provide shell environment `SENIVERSE_KEY` and `SENIVERSE_UID`\
+ to using this API
+"""
+import os
 
 import requests
 import json
 
-KEY = '1worlmmidflsziwr'  # API key
-UID = "U6973DB705"  # 用户ID
+KEY = os.getenv('SENIVERSE_KEY', '')  # API key
+UID = ""  # 用户ID, TODO: 当前并没有使用这个值,签名验证方式将使用到这个值
 
 LOCATION = 'beijing'  # 所查询的位置，可以使用城市拼音、v3 ID、经纬度等
 API = 'https://api.seniverse.com/v3/weather/daily.json'  # API URL，可替换为其他 URL
