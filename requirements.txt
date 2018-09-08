@@ -1,8 +1,8 @@
 git+https://github.com/mit-nlp/MITIE.git
-git+https://github.com/RasaHQ/rasa_core.git
-git+https://github.com/RasaHQ/rasa_nlu.git
 git+https://github.com/howl-anderson/rasa-addons.git
 
+rasa-core==0.9.8
+rasa_nlu==0.12.3
 absl-py==0.2.1
 APScheduler==3.5.1
 astor==0.6.2
