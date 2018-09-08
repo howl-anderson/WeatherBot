@@ -32,12 +32,23 @@ pip install -r requirements.txt
 * `models/dialogue`：通过运行 `train_CORE.bash` 生成
 
 ## 功能入口
+### 申请 API key
+本项目目前使用 [心知天气](https://www.seniverse.com/) 提供天气数据，该平台为个人提供免费的 API，但任然需要用户注册并申请 API key 才能使用。用户注册后可以自行找到 `我的API密钥`。
+
+### 启动服务
+将如下的 `xxx` 替换成你的 API key，然后执行即可
+
 ```bash
-python ./webchat.py
+SENIVERSE_KEY=xxx python ./webchat.py
 ```
+
+启动成功后，请用浏览器访问 [http://localhost:5500](http://localhost:5500) , 你将得到 web 页面，have fun!
 
 ## Docker 容器
 见 [Dockerfile](Dockerfile)
+
+## FAQ
+* 如果在使用机器人中遇到解析失败或者 SSL 错误或者超时错误，请重试几次，数据提供商 `心知天气` 的 API 很不稳定，后续考虑替换成其他供应商
 
 ## TODO
 * 使用更加 Robust 的对话管理方案,目前的方案无法处理意图切换等复杂场景.
