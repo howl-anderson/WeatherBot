@@ -5,7 +5,7 @@
 这个机器人可以根据你提供的城市（北京、上海等）和日期（明天、后天等），查询出相应的天气预报。
 
 ## 功能截图
-![](.images/weather_bot_query_interface.png)
+<img src=".images/weather_bot_query_interface.png" width="70%">
 
 ## 特性
 使用 Frame-based 对话管理方案，如果上述两个 Slot (既城市和天气)，有任意一个用户未提供，对话管理系统会负责让你澄清相关 Slot 的值。
