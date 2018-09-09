@@ -18,6 +18,9 @@
 ## 在线演示
 [Demo for 天气预报查询机器人](http://weather_bot.xiaoquankong.ai/)
 
+## 文档说明
+见博文 [使用 Rasa 构建天气查询机器人](http://blog.xiaoquankong.ai/使用-Rasa-构建天气查询机器人/)
+
 ## 依赖
 ### python 版本
 python 3
