@@ -1,5 +1,7 @@
 # Demo for 天气预报查询机器人
 
+## 源代码地址
+https://github.com/howl-anderson/WeatherBot
 
 ## 功能
 这个机器人可以根据你提供的城市（北京、上海等）和日期（明天、后天等），查询出相应的天气预报。
