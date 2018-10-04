@@ -1,0 +1,7 @@
+git+https://github.com/mit-nlp/MITIE.git
+git+https://github.com/howl-anderson/rasa-addons.git@rasacore-0.11-support#egg=rasa_addons
+
+rasa-core
+rasa_nlu
+jieba
+requests
