@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db1e0a21-d4a8-4af1-8cf1-1e14174b96e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.images/weather_bot_initial_interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.images/weather_bot_query_interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI_server.bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLOT_graph.bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlu_model_config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online_stories.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/chat_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/robotic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/webchat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stories.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_CORE.bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_NLU.bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_ONLINE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat.py" beforeDir="false" />
-    </list>
+    <list default="true" id="db1e0a21-d4a8-4af1-8cf1-1e14174b96e6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +15,20 @@
     <SUITE FILE_PATH="coverage/WeatherBot$rasa_core_sdk_endpoint.coverage" NAME="rasa_core_sdk.endpoint Coverage Results" MODIFIED="1538658382870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="74">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -621,8 +604,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="83">
-            <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <first_editor relative-caret-position="74">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
