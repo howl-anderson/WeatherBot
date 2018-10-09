@@ -1,13 +1,13 @@
 # WeatherBot
-一个简单的中文天气情况问询机器人(chatbot), 附带 Web UI 界面
+一个使用 Rasa 技术栈 （Rasa NLU, Rasa Core, Rasa Core SDK）构建的简单的中文天气情况问询机器人(chatbot), 附带有基于 Web 的用户界面（UI）
 
 ## 功能
 这个机器人可以根据你提供的城市（北京、上海等）和日期（明天、后天等），查询出相应的天气预报。
 
 ## 功能截图
-<img src=".images/weather_bot_query_interface.png" width="50%">
+<img src="images/weather_bot_query_interface.png" width="50%">
 
-## 特性
+## 特性UI
 使用 Frame-based 对话管理方案，如果上述两个 Slot (既城市和天气)，有任意一个用户未提供，对话管理系统会负责让你澄清相关 Slot 的值。
 
 ## 能力范围
@@ -19,33 +19,8 @@
 [Demo for 天气预报查询机器人](http://weather_bot.xiaoquankong.ai/)
 
 ## 文档说明
-见博文 [使用 Rasa 构建天气查询机器人](http://blog.xiaoquankong.ai/使用-Rasa-构建天气查询机器人/)
-
-## 依赖
-### python 版本
-python 3
-### python 依赖
-```console
-pip install -r requirements.txt
-```
-
-## 下载数据和模型
-* `data/total_word_feature_extractor.dat`: 从 [https://github.com/howl-anderson/MITIE_Chinese_Wikipedia_corpus](https://github.com/howl-anderson/MITIE_Chinese_Wikipedia_corpus/releases) 下载，解压缩后放置到对应位置
-* `models/default/current`：通过运行 `train_NLU.bash` 生成
-* `models/dialogue`：通过运行 `train_CORE.bash` 生成
-
-## 功能入口
-### 申请 API key
-本项目目前使用 [心知天气](https://www.seniverse.com/) 提供天气数据，该平台为个人提供免费的 API，但任然需要用户注册并申请 API key 才能使用。用户注册后可以自行找到 `我的API密钥`。
-
-### 启动服务
-将如下的 `xxx` 替换成你的 API key，然后执行即可
-
-```bash
-SENIVERSE_KEY=xxx python ./webchat.py
-```
-
-启动成功后，请用浏览器访问 [http://localhost:5500](http://localhost:5500) , 你将得到 web 页面，have fun!
+本项目采用了组件相互隔离类似于微服务的思想来构建整个系统。
+<img src="images/architecture.png" width="50%">
 
 ## Docker 容器
 见 [Dockerfile](Dockerfile)
