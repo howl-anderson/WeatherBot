@@ -20,7 +20,7 @@
 
 ## 文档说明
 本项目采用了组件相互隔离类似于微服务的思想来构建整个系统。
-<img src="images/architecture.png" width="90%">
+<img src="images/architecture.png" width="80%">
 
 ## Docker 容器
 见 [Dockerfile](Dockerfile)
