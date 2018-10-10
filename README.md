@@ -7,7 +7,7 @@
 ## 功能截图
 <img src="images/weather_bot_query_interface.png" width="50%">
 
-## 特性UI
+## 特性
 使用 Frame-based 对话管理方案，如果上述两个 Slot (既城市和天气)，有任意一个用户未提供，对话管理系统会负责让你澄清相关 Slot 的值。
 
 ## 能力范围
@@ -19,11 +19,15 @@
 [Demo for 天气预报查询机器人](http://weather_bot.xiaoquankong.ai/)
 
 ## 文档说明
-本项目采用了组件相互隔离类似于微服务的思想来构建整个系统。
+本项目采用了组件相互隔离(类似于微服务的思想)来构建整个系统。
 <img src="images/architecture.png" width="80%">
 
-## Docker 容器
-见 [Dockerfile](Dockerfile)
+整个系统分成 4 个 APP:
+
+* `User Interface` 负责提供用户 UI ，方便用户使用，Rasa Core 支持和多种即时通讯软件（IM）的整合，Rasa Core 提供了一种称之为 Channel 的特性来方便接入 API。该组件使用的是在 [rasa-webchat](https://github.com/mrbot-ai/rasa-webchat) 基础上修改的代码，具体信息请访问 [WeatherBot_UI](https://github.com/howl-anderson/WeatherBot_UI)
+* `Diaglog Manager` 负责管理整个对话的流程，它会主动调用 `NLU` 来解析用户的意图和提取相关的实体，在需要执行业务动作的时候会调用 `Action Server` 执行具体的业务动作。该组件使用的是 Rasa Core，具体信息请访问 [WeatherBot_Core](https://github.com/howl-anderson/WeatherBot_Core)。
+* `NLU` 负责理解用户的意图和提取相关的实体。该组件使用的是 `Rasa NLU`, 具体信息请访问 [WeatherBot_NLU](https://github.com/howl-anderson/WeatherBot_NLU)。
+* `Action Server` 负责执行自定义 Action (通常都是具体的业务动作，在本项目中是请求远程服务器以查询天气情况), 具体信息请访问 [WeatherBot_Action](https://github.com/howl-anderson/WeatherBot_Action)。
 
 ## FAQ
 * 如果在使用机器人中遇到解析失败或者 SSL 错误或者超时错误，请重试几次，数据提供商 `心知天气` 的 API 很不稳定，后续考虑替换成其他供应商
