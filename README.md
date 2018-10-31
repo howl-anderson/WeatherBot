@@ -27,10 +27,15 @@
 
 整个系统分成 4 个 APP:
 
-* `User Interface` 负责提供用户 UI ，方便用户使用，Rasa Core 支持和多种即时通讯软件（IM）的整合，Rasa Core 提供了一种称之为 Channel 的特性来方便接入 API。该组件使用的是在 [rasa-webchat](https://github.com/mrbot-ai/rasa-webchat) 基础上修改的代码，具体信息请访问 [WeatherBot_UI](https://github.com/howl-anderson/WeatherBot_UI)
-* `Diaglog Manager` 负责管理整个对话的流程，它会主动调用 `NLU` 来解析用户的意图和提取相关的实体，在需要执行业务动作的时候会调用 `Action Server` 执行具体的业务动作。该组件使用的是 Rasa Core，具体信息请访问 [WeatherBot_Core](https://github.com/howl-anderson/WeatherBot_Core)。
-* `NLU` 负责理解用户的意图和提取相关的实体。该组件使用的是 `Rasa NLU`, 具体信息请访问 [WeatherBot_NLU](https://github.com/howl-anderson/WeatherBot_NLU)。
-* `Action Server` 负责执行自定义 Action (通常都是具体的业务动作，在本项目中是请求远程服务器以查询天气情况), 具体信息请访问 [WeatherBot_Action](https://github.com/howl-anderson/WeatherBot_Action)。
+
+| 组件 | 仓库地址 | 说明 |
+| --- | --- | --- |
+| `User Interface` | [WeatherBot_UI](https://github.com/howl-anderson/WeatherBot_UI) | 负责提供用户 UI ，方便用户使用，Rasa Core 支持和多种即时通讯软件（IM）的整合，Rasa Core 提供了一种称之为 Channel 的特性来方便接入 API。 |
+| `Diaglog Manager` | [WeatherBot_Core](https://github.com/howl-anderson/WeatherBot_Core) | 负责管理整个对话的流程，它会主动调用 `NLU` 来解析用户的意图和提取相关的实体，在需要执行业务动作的时候会调用 `Action Server` 执行具体的业务动作。 |
+| `NLU` | [WeatherBot_NLU](https://github.com/howl-anderson/WeatherBot_NLU) | 负责理解用户的意图和提取相关的实体。 |
+| `Action Server` | [WeatherBot_Action](https://github.com/howl-anderson/WeatherBot_Action) | 负责执行自定义 Action (通常都是具体的业务动作，在本项目中是请求远程服务器以查询天气情况) |
+
+**NOTE** 4 个 APP 不在本仓库中，它们分别有独立的仓库，具体仓库地址见上面的列表。
 
 ## FAQ
 * 如果在使用机器人中遇到解析失败或者 SSL 错误或者超时错误，请重试几次，数据提供商 `心知天气` 的 API 很不稳定，后续考虑替换成其他供应商
