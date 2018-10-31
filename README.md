@@ -16,7 +16,7 @@
 * 因为使用的是免费的天气查询接口，所以 **会有配额限制**，可能会因为 **超出调用次数** ，而在一个小时内不能用。同时网络查询接口可能存在不稳定因素，导致 **没有结果返回或者出现异常**，**尝试多次重新发送请求可解决问题**。
 
 ## 动画演示
-<img src="images/WeatherBot_demo.gif" width="50%">
+<img src="images/WeatherBot_demo.webp" width="50%">
 
 ## 在线演示
 [Demo for 天气预报查询机器人](http://weather_bot.xiaoquankong.ai/)
